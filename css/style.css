@@ -1,0 +1,373 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Archivo', sans-serif;
+}
+
+.center {
+	width: 1000px;
+	margin: 0 auto;	
+}
+
+header img {
+	margin-top: 20px;
+}
+
+header > nav {
+	margin-top: 20px;
+	height: 50px;
+	width: 950px;
+	font-size: 12px;
+	font-weight: 500;
+	
+}
+
+nav {
+	position: sticky;
+	top:0;
+}
+
+nav ul {
+	list-style: none;
+	background-color: #222931;
+}
+
+nav ul li {
+	display: inline-block;
+	height: 50px;
+	margin: 0 10px;
+}
+
+nav ul li a {
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	color: white;
+	transition: 0.4s ease;
+	padding: 0 10px;
+	font-size: 12px;
+
+}
+
+nav ul li a:hover {
+	background-color: #ffe718;
+}
+
+nav ul li.dropdown ul {
+	background-color: #222931;
+	position: absolute;
+	left: 0;
+	padding-left: 0;
+	min-width: 180px;
+	display: none;
+}
+
+nav ul li.dropdown ul li a {
+	color: grey;
+	font-size: 16px;
+}
+
+nav ul li.dropdown:hover ul {
+	display: block;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.yellow {
+	background-color: #ffe718;
+	width: 100%;
+	height: 150px;
+}
+
+section.center.margintop{
+	height: 250px;
+}
+
+.parent1 {
+	background-image: url('../img/banner-1.jpg');
+	background-size: cover;
+	position: relative;
+	right: 20px;
+}
+
+.parent2 {
+	background-image: url('../img/banner-2.jpg');
+	background-size: cover;
+	position: relative;
+	bottom: 250px;
+	left:310px;
+}
+
+.parent3 {
+	background-image: url('../img/banner-3.jpg');
+	background-size: cover;
+	position: relative;
+	left:640px;
+	bottom: 500px;
+}
+
+.child1 {
+	background-color: rgba(0,0,0,0.5);
+	display: none;
+	cursor: pointer;
+}
+
+.parent1:hover .child1{
+	display: block;	
+}
+
+.parent2:hover .child1{
+	display: block;	
+}
+
+.parent3:hover .child1{
+	display: block;	
+}
+
+.blockimg {
+	width: 300px;
+	height: 220px;
+}
+
+.child1 > p {
+	font-size: 34px;
+	text-align: center;
+	color: white;
+	line-height: 250px;
+	margin: 0;
+}
+
+
+.blockimg {
+	width: 300px;
+	height: 250px;
+}
+
+.margintop {
+	margin-top: 70px;
+}
+
+button {
+	position: absolute;
+	right: 450px;
+	margin-top: 50px;
+	font-size: 12px;
+	background-color: #222931;
+	color: white;
+	width: 250px;
+	height: 50px;
+	font-weight: 500;
+}
+
+.we > h2 {
+	position: absolute;
+	left: 440px;
+	font-size: 34px;
+	margin-top: 50px;
+	font-weight: 700px;
+}
+
+.we > p {
+	position: absolute;
+	left: 840px;
+	font-size: 16px;
+	margin-top: 67px;
+	font-weight: 700px;
+}
+
+.yellowblock {
+	width: 300px;
+	height: 100px;
+	display: inline-block;
+	background-color: #ffe718;
+}
+
+.yellowblock:hover {
+	background-color: #222931;
+	color: white;
+}
+
+
+.block1 {
+	position: relative;
+	bottom: 60px;
+	margin-left: 20px;
+}
+
+
+.block1 > i {
+	position: absolute;
+	left: 20px;
+	bottom: 25px;
+	font-size: 50px;
+}
+
+.block1 > h3 {
+	position: absolute;
+	right: 111px;
+	top: 30px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.block1 > p {
+	position: absolute;
+	right: 40px;
+	bottom: 25px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.block2 {
+	position: relative;
+	bottom: 60px;
+	margin-left: 20px;
+}
+
+.block2 > i {
+	position: absolute;
+	left: 20px;
+	bottom: 25px;
+	font-size: 50px;
+}
+
+.block2 > h3 {
+	position: absolute;
+	right: 86px;
+	top: 30px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.block2 > p {
+	position: absolute;
+	right: 30px;
+	bottom: 25px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.block3 {
+	position: relative;
+	bottom: 60px;
+	margin-left: 20px;
+}
+
+.block3 > i {
+	position: absolute;
+	left: 20px;
+	bottom: 25px;
+	font-size: 50px;
+}
+
+.block3 > h3 {
+	position: absolute;
+	right: 93px;
+	top: 30px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.block3 > p {
+	position: absolute;
+	right: 50px;
+	bottom: 25px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.maintext {
+	margin-top: 60px;
+	position: relative;
+}
+
+
+.maintext > article {
+	display: inline-block;
+}
+
+.maintext > article > p {
+	margin-top: 40px;
+}
+
+.texta {
+	width: 500px;
+}
+
+article > h2 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+footer {
+	height: 60px;
+	background-color: #222931;
+	margin-top: 30px;
+}
+
+footer > p {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	right: 300px;
+	margin-top: 20px;
+}
+
+nav i {
+	font-size: 15px;
+	margin-left: 8px;
+}
+
+hr {
+	color: #f0f2f5;
+}
+
+article > i {
+	position: absolute;
+	left: 0;
+}
+
+.icon1 {
+	position: absolute;
+	top: 65px;
+	right: 320px;
+	font-size: 30px;
+	color: grey;
+}
+
+.icon2 {
+	position: absolute;
+	top: 130px;
+	right: 320px;
+	font-size: 32px;
+	color: grey;
+}
+
+.icon3 {
+	position: absolute;
+	bottom: 65px;
+	right: 318px;
+	font-size: 25px;
+	color: grey;
+}
+
+.texta2 {
+	position: absolute;
+	right: 145px;	
+}
+
+.texta2  h2 {
+	margin-right: 30px;
+	 
+}
+
+.texta2 p {
+	margin-left: 36px;
+}
+
+div.blocks.center > a:visited {
+	color: #000000;
+}
+
